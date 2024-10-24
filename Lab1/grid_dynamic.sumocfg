@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Sep 25 11:11:29 2018 by Eclipse SUMO Version 5345f89a38
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <configuration>
+        <configuration-file value="" synonymes="c configuration" type="FILE" help="Loads the named config on startup"/>
+        <save-configuration value="" synonymes="C save-config" type="FILE" help="Saves current configuration into FILE"/>
+        <save-template value="" type="FILE" help="Saves a configuration template (empty) into FILE"/>
+        <save-schema value="" type="FILE" help="Saves the configuration schema into FILE"/>
+        <save-commented value="false" synonymes="save-template.commented" type="BOOL" help="Adds comments to saved template, configuration, or schema"/>
+    </configuration>
+
+    <input>
+        <!-- <net-file value="grid.net.xml" synonymes="n net" type="FILE" help="Load road network description from FILE"/>
+        <route-files value="grid.rou.xml" synonymes="r routes" type="FILE" help="Load routes descriptions from FILE(s)"/> -->
+        <net-file value="grid_dynamic.net.xml" synonymes="n net" type="FILE" help="Load road network description from FILE"/>
+        <route-files value="routes_dynamic.rou.xml" synonymes="r routes" type="FILE" help="Load routes descriptions from FILE(s)"/>
+    </input>
+
+    <output>
+
+        <summary-output value="dynamic_summary.xml" synonymes="summary" type="FILE" help="Save aggregated vehicle departure info into FILE"/>
+        <tripinfo-output value="dynamic_tripinfo.xml" synonymes="tripinfo" type="FILE" help="Save single vehicle trip info into FILE"/>
+        <emission-output value="dynamic_emissions.xml"/>
+
+    </output>
+
+    <time>
+        <begin value="0" synonymes="b" type="TIME" help="Defines the begin time in seconds; The simulation starts at this time"/>
+        <end value="-1" synonymes="e" type="TIME" help="Defines the end time in seconds; The simulation ends at this time"/>
+        <step-length value="1" type="TIME" help="Defines the step duration in seconds"/>
+    </time>
+
+    <random_number>
+        <random value="false" synonymes="abs-rand" type="BOOL" help="Initialises the random number generator with the current system time"/>
+        <seed value="23423" synonymes="srand" type="INT" help="Initialises the random number generator with the given value"/>
+    </random_number>
+
+    <!-- <routing>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+    </routing> -->
+
+    <gui_only>
+        <gui-settings-file value="" synonymes="g" type="FILE" help="Load visualisation settings from FILE"/>
+        <quit-on-end value="false" synonymes="Q" type="BOOL" help="Quits the GUI when the simulation stops"/>
+        <game value="false" synonymes="G" type="BOOL" help="Start the GUI in gaming mode"/>
+        <start value="false" synonymes="S" type="BOOL" help="Start the simulation after loading"/>
+        <demo value="false" synonymes="D" type="BOOL" help="Restart the simulation after ending (demo mode)"/>
+        <disable-textures value="false" synonymes="T" type="BOOL" help="Do not load background pictures"/>
+        <window-size value="" type="STR" help="Create initial window with the given x,y size"/>
+        <window-pos value="" type="STR" help="Create initial window at the given x,y position"/>
+        <tracker-interval value="1" type="FLOAT" help="The aggregation period for value tracker windows"/>
+        <osg-view value="false" type="BOOL" help="Start with an OpenSceneGraph view instead of the regular 2D view"/>
+        <gui-testing value="false" type="BOOL" help="Enable ovelay for screen recognition"/>
+        <gui-testing-debug value="false" type="BOOL" help="Enable output messages during GUI-Testing"/>
+    </gui_only>
+
+</configuration>
