@@ -1,0 +1,5 @@
+<flows>
+    <interval begin="0" end="3600">
+        <flow id="flow1" from="D4D5" to="D2D3" number="3600" via="C5C1 B4B3 C1C2"/>
+    </interval>
+</flows>

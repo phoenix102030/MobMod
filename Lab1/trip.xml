@@ -1,0 +1,5 @@
+<trips>
+  <interval begin="0" end="3600">
+        <trip id="trip1" depart="0" from="D4D5" to="D2D3" via="C5C1 B3B4 C1C2"/>
+    </interval>
+</trips>

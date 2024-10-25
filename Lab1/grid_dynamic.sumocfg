@@ -22,9 +22,9 @@
 
     <output>
 
-        <summary-output value="dynamic_summary.xml" synonymes="summary" type="FILE" help="Save aggregated vehicle departure info into FILE"/>
-        <tripinfo-output value="dynamic_tripinfo.xml" synonymes="tripinfo" type="FILE" help="Save single vehicle trip info into FILE"/>
-        <emission-output value="dynamic_emissions.xml"/>
+        <summary-output value="dynamic_summary.xml" freq="60" type="FILE" help="Save aggregated vehicle departure info into FILE"/>
+        <tripinfo-output value="dynamic_tripinfo.xml" freq="60" type="FILE" help="Save single vehicle trip info into FILE"/>
+        <emission-output value="dynamic_emissions.xml" freq="60" type="FILE"/>
 
     </output>
 
@@ -39,11 +39,11 @@
         <seed value="23423" synonymes="srand" type="INT" help="Initialises the random number generator with the given value"/>
     </random_number>
 
-    <!-- <routing>
+    <routing>
         <device.rerouting.probability value="1"/>
         <device.rerouting.period value="300"/>
         <device.rerouting.pre-period value="300"/>
-    </routing> -->
+    </routing>
 
     <gui_only>
         <gui-settings-file value="" synonymes="g" type="FILE" help="Load visualisation settings from FILE"/>

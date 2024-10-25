@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-10-25 16:59:51 by Eclipse SUMO duarouter Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="spider.net.xml"/>
+        <route-files value="trip.xml"/>
+    </input>
+
+    <output>
+        <output-file value="spider_trip.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="trip1" depart="0.00">
+        <route edges="D4D5 D5C5 C5C1 C1B1 B1B2 B2B3 B3B4 B4B5 B5B1 B1C1 C1C2 C2D2 D2D3"/>
+    </vehicle>
+</routes>
