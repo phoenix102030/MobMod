@@ -31,7 +31,7 @@ def plot_emissions(emission_df):
 
     # Plot CO2 Emissions over Time
     plt.subplot(3, 1, 1)
-    plt.plot(emission_df['time'], emission_df['CO2'], label='CO2 Emissions', color='g')
+    plt.plot(emission_df['time'].values, emission_df['CO2'].values, label='CO2 Emissions', color='g')
     plt.xlabel('Time (s)')
     plt.ylabel('CO2 Emissions (g)')
     plt.title('CO2 Emissions Over Time')
@@ -40,7 +40,7 @@ def plot_emissions(emission_df):
 
     # Plot Fuel Consumption over Time
     plt.subplot(3, 1, 2)
-    plt.plot(emission_df['time'], emission_df['fuel'], label='Fuel Consumption', color='orange')
+    plt.plot(emission_df['time'].values, emission_df['fuel'].values, label='Fuel Consumption', color='orange')
     plt.xlabel('Time (s)')
     plt.ylabel('Fuel Consumption (ml)')
     plt.title('Fuel Consumption Over Time')
@@ -49,7 +49,7 @@ def plot_emissions(emission_df):
 
     # Plot NOx Emissions over Time
     plt.subplot(3, 1, 3)
-    plt.plot(emission_df['time'], emission_df['NOx'], label='NOx Emissions', color='r')
+    plt.plot(emission_df['time'].values, emission_df['NOx'].values, label='NOx Emissions', color='r')
     plt.xlabel('Time (s)')
     plt.ylabel('NOx Emissions (g)')
     plt.title('NOx Emissions Over Time')
@@ -57,7 +57,7 @@ def plot_emissions(emission_df):
     plt.grid(True)
 
     plt.tight_layout()
-    plt.savefig('4_emi.jpg')
+    plt.savefig('2.3emi.jpg')
     plt.show()
 
 # Main function to run the analysis and plotting

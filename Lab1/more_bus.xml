@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on 2024-10-27 17:44:52.962057 by randomTrips.py UNKNOWN
+  options: -n spider.net.xml -b 0 -e 3600 -p 60 -o more_bus.xml <doubleminus>vehicle-class=bus <doubleminus>prefix=bus
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+    <trip id="bus0" depart="0.00" from="C5B5" to="B1B5" type="bus_bus"/>
+    <trip id="bus1" depart="60.00" from="B5B4" to="B4C4" type="bus_bus"/>
+    <trip id="bus2" depart="120.00" from="D1D2" to="C5C4" type="bus_bus"/>
+    <trip id="bus3" depart="180.00" from="D4C4" to="B2B3" type="bus_bus"/>
+    <trip id="bus4" depart="240.00" from="C2C3" to="B1B5" type="bus_bus"/>
+    <trip id="bus5" depart="300.00" from="B4B5" to="C3C4" type="bus_bus"/>
+    <trip id="bus6" depart="360.00" from="B1B5" to="B4B3" type="bus_bus"/>
+    <trip id="bus7" depart="420.00" from="C5C1" to="C4B4" type="bus_bus"/>
+    <trip id="bus8" depart="480.00" from="B4C4" to="C4C5" type="bus_bus"/>
+    <trip id="bus9" depart="540.00" from="D2D3" to="B1B2" type="bus_bus"/>
+    <trip id="bus10" depart="600.00" from="D2D3" to="C5D5" type="bus_bus"/>
+    <trip id="bus11" depart="660.00" from="C1C5" to="B3B4" type="bus_bus"/>
+    <trip id="bus12" depart="720.00" from="D5C5" to="C1C2" type="bus_bus"/>
+    <trip id="bus13" depart="780.00" from="B2B3" to="B2B3" type="bus_bus"/>
+    <trip id="bus14" depart="840.00" from="D3D2" to="C4D4" type="bus_bus"/>
+    <trip id="bus15" depart="900.00" from="D2D3" to="D1D2" type="bus_bus"/>
+    <trip id="bus16" depart="960.00" from="C3D3" to="D5D1" type="bus_bus"/>
+    <trip id="bus17" depart="1020.00" from="C1D1" to="C4B4" type="bus_bus"/>
+    <trip id="bus18" depart="1080.00" from="D3C3" to="C4D4" type="bus_bus"/>
+    <trip id="bus19" depart="1140.00" from="D3D4" to="C4C3" type="bus_bus"/>
+    <trip id="bus20" depart="1200.00" from="D1C1" to="B1C1" type="bus_bus"/>
+    <trip id="bus21" depart="1260.00" from="B4C4" to="B5C5" type="bus_bus"/>
+    <trip id="bus22" depart="1320.00" from="B2B1" to="B4C4" type="bus_bus"/>
+    <trip id="bus23" depart="1380.00" from="B2C2" to="B5B4" type="bus_bus"/>
+    <trip id="bus24" depart="1440.00" from="C5B5" to="C1D1" type="bus_bus"/>
+    <trip id="bus25" depart="1500.00" from="C1D1" to="B4B5" type="bus_bus"/>
+    <trip id="bus26" depart="1560.00" from="B5B4" to="D4D5" type="bus_bus"/>
+    <trip id="bus27" depart="1620.00" from="C5C1" to="C4D4" type="bus_bus"/>
+    <trip id="bus28" depart="1680.00" from="B3C3" to="D1D2" type="bus_bus"/>
+    <trip id="bus29" depart="1740.00" from="B3C3" to="C1D1" type="bus_bus"/>
+    <trip id="bus30" depart="1800.00" from="D5D4" to="C5B5" type="bus_bus"/>
+    <trip id="bus31" depart="1860.00" from="C4B4" to="C5D5" type="bus_bus"/>
+    <trip id="bus32" depart="1920.00" from="D3D2" to="D2C2" type="bus_bus"/>
+    <trip id="bus33" depart="1980.00" from="B4C4" to="B1B5" type="bus_bus"/>
+    <trip id="bus34" depart="2040.00" from="C1B1" to="B5B4" type="bus_bus"/>
+    <trip id="bus35" depart="2100.00" from="B4B5" to="D5C5" type="bus_bus"/>
+    <trip id="bus36" depart="2160.00" from="D3D4" to="C1B1" type="bus_bus"/>
+    <trip id="bus37" depart="2220.00" from="C5C1" to="C2B2" type="bus_bus"/>
+    <trip id="bus38" depart="2280.00" from="D4D3" to="C2D2" type="bus_bus"/>
+    <trip id="bus39" depart="2340.00" from="B5B4" to="B5B1" type="bus_bus"/>
+    <trip id="bus40" depart="2400.00" from="C4C3" to="B5B4" type="bus_bus"/>
+    <trip id="bus41" depart="2460.00" from="C4C5" to="D4C4" type="bus_bus"/>
+    <trip id="bus42" depart="2520.00" from="C2B2" to="B4B5" type="bus_bus"/>
+    <trip id="bus43" depart="2580.00" from="D5D4" to="C3C4" type="bus_bus"/>
+    <trip id="bus44" depart="2640.00" from="B2B3" to="B1C1" type="bus_bus"/>
+    <trip id="bus45" depart="2700.00" from="B2C2" to="C5B5" type="bus_bus"/>
+    <trip id="bus46" depart="2760.00" from="D2D1" to="C2C3" type="bus_bus"/>
+    <trip id="bus47" depart="2820.00" from="B2B1" to="C2B2" type="bus_bus"/>
+    <trip id="bus48" depart="2880.00" from="D5D4" to="C3D3" type="bus_bus"/>
+    <trip id="bus49" depart="2940.00" from="D5D1" to="D3D4" type="bus_bus"/>
+    <trip id="bus50" depart="3000.00" from="B1B2" to="D1D2" type="bus_bus"/>
+    <trip id="bus51" depart="3060.00" from="C5D5" to="C3D3" type="bus_bus"/>
+    <trip id="bus52" depart="3120.00" from="B5B4" to="C5C1" type="bus_bus"/>
+    <trip id="bus53" depart="3180.00" from="B2C2" to="C2C3" type="bus_bus"/>
+    <trip id="bus54" depart="3240.00" from="C2D2" to="D5C5" type="bus_bus"/>
+    <trip id="bus55" depart="3300.00" from="D3D4" to="B5B4" type="bus_bus"/>
+    <trip id="bus56" depart="3360.00" from="C3C4" to="B3C3" type="bus_bus"/>
+    <trip id="bus57" depart="3420.00" from="D4D3" to="D3D4" type="bus_bus"/>
+    <trip id="bus58" depart="3480.00" from="B5C5" to="C5B5" type="bus_bus"/>
+    <trip id="bus59" depart="3540.00" from="C4D4" to="B3B4" type="bus_bus"/>
+</routes>
