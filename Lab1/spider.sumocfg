@@ -19,15 +19,15 @@
         <net-file value="spider.net.xml" synonymes="n net" type="FILE" help="Load road network description from FILE"/>
         <!-- <route-files value="spider_rou.xml" synonymes="r routes" type="FILE" help="Load routes descriptions from FILE(s)"/> -->
         <!-- <route-files value="spider_trip.xml"/> -->
-        <!-- <route-files value="passenger_trips.xml, motorcycle_trips.xml, bus_trips.xml, delivery_trips.xml"/> -->
-        <route-files value="more_passenger.xml, more_motorcycle.xml, more_bus.xml, more_delivery.xml"/>
+        <route-files value="passenger_trips.xml, motorcycle_trips.xml, bus_trips.xml, delivery_trips.xml"/>
+        <!-- <route-files value="more_passenger.xml, more_motorcycle.xml, more_bus.xml, more_delivery.xml"/> -->
     </input>
 
     <output>
 
         <summary-output value="summary.xml" freq="60" type="FILE" help="Save aggregated vehicle departure info into FILE"/>
         <tripinfo-output value="tripinfo.xml" freq="60" type="FILE" help="Save single vehicle trip info into FILE"/>
-        <emission-output value="emissions.xml" freq="60" type="FILE"/>
+        <!-- <emission-output value="emissions.xml" freq="60" type="FILE"/> -->
     </output>
 
     <time>
@@ -41,11 +41,11 @@
         <seed value="23423" synonymes="srand" type="INT" help="Initialises the random number generator with the given value"/>
     </random_number>
 
-    <!-- <routing>
+    <routing>
         <device.rerouting.probability value="1"/>
         <device.rerouting.period value="300"/>
         <device.rerouting.pre-period value="300"/>
-    </routing> -->
+    </routing>
 
     <gui_only>
         <gui-settings-file value="" synonymes="g" type="FILE" help="Load visualisation settings from FILE"/>
